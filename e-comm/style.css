@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(249, 249, 231);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: bisque;
+    justify-content: space-between;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+}
+
+.side-nav {
+    display: flex;
+    gap: 50px;
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.hero-text {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.subtext {
+    font-size: medium;
+    font-weight: lighter;
+    margin-top: 60px;
+}
+
+.buts {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    background-color: black;
+    color: bisque;
+    font-size: small;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.prods {
+    text-align: center;
+}
+
+.searchbar {
+    width: 500px;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 1px brown;
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 50px;
+    max-width: 600px;
+    margin: 50px auto;   /* center container */
+    justify-content: center;
+}
+
+.tile {
+    height: 250px;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 232, 211);
+    padding: 30px;
+    border-radius: 40px;
+    gap:20px;
+    width: 30%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 40px;
+    width: 400px;
+}
+
+.radio-group {
+    display: flex;
+}
+
+label {
+    display: flex;
+    width: 100px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 40px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+
+
+

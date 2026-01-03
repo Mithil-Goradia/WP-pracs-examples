@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="nav">
+        <p>E-commer</p>
+        <div class="side-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </div>
+
+    <div class="outer">
+        <form class="signup" id="signup">
+            <p class="hero-text">Sign-up</p>
+
+            <div class="inputs">
+                <input type="text" id="name" placeholder="Enter your name"/>
+                <input type="email" id="email" placeholder="Enter your email"/>
+                <input type="password" id="pwd" placeholder="Enter your password"/>
+                <input type="password" id="cpwd" placeholder="Confirm your password"/>
+
+                <div class="radio-group">
+                    <label>Gender:</label>
+                    <label>
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                </div>
+
+                <div class="dropdown">
+                    <label for="state">State:</label>
+                    <select id="state">
+                        <option value="mah">Mah</option>
+                        <option value="abc">abc</option>
+                        <option value="alp">alp</option>
+                        <option value="dsa">dsa</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
